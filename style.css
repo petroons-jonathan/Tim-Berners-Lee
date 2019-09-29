@@ -55,6 +55,7 @@ body {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
+    margin-bottom: 2em;
 }
 .blockSocial ul {
     display: inline-block;
@@ -67,4 +68,69 @@ body {
 .blockSocial a {
     text-decoration: none;
     color: #cccccc;
+}
+
+/* Film"s block */
+.gridFilm {
+    width:90vh;
+    background-color: white;
+    margin-right:auto;
+    margin-left:auto;
+    padding:1em;
+    display: grid;
+    grid-column: 1fr 1fr;
+    grid-row: 1fr 1fr 1fr;
+}
+.gridFilm h2 {
+    text-align: center;
+    grid-column: 1;
+    grid-row: 1;
+    padding-bottom: 1em;
+}
+/* Space Odyssey part */
+.spaceodyssey {
+    grid-column:1;
+    grid-row: 2;
+    text-align: center;
+}
+.spaceodyssey p {
+    grid-column: 2;
+    grid-row:2;
+    text-align: justify;
+}
+.spaceodyssey img {
+    float:left;
+    padding-right: 2em;
+}
+
+/* Hulot part */
+.hulot {
+    grid-column: 1;
+    grid-row: 3;
+    text-align: center;
+}
+.hulot p {
+    grid-column: 2;
+    grid-row: 3;
+    text-align: justify;
+}
+.hulot img {
+    float:left;
+    padding-right:2em;
+}
+
+/* Alien part */
+.alien {
+    grid-column: 1;
+    grid-row: 4;
+    text-align: center;
+}
+.alien p {
+    grid-column: 2;
+    grid-row: 4;
+    text-align: justify;
+}
+.alien img {
+    float: left;
+    padding-right: 2em;
 }
