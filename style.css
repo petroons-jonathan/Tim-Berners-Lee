@@ -2,4 +2,69 @@ body {
     width:80%;
     background-color: #ebebeb;
     font-family:"Open Sans", sans-serif;
+    /* center all the page*/
+    margin-right:auto;
+    margin-left:auto;
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+
+/* Tim's Block */
+.blockTim {
+    background-color: white;
+    padding:1em;
+    text-align: center;
+    /* size and center in the div*/
+    width: 90vh;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2em;
+}
+
+/* img's size and border */
+.blockTim img {
+    border-radius:50%;
+    border: 3px solid #cccccc;
+}
+.blockTim h1 {
+    font-weight: bold;
+    color:#dd5555;
+    font-size: 35Px;
+}
+.blockTim p {
+    text-align: justify;
+}
+
+/* button's decoration */
+.bouton {
+    background-color: #dd5555;
+    font-size: 20px;
+    border-radius: 10px;
+    padding:10px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Social's block */
+.blockSocial {
+    background-color: white;
+    padding: 1em;
+    width: 90vh;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.blockSocial ul {
+    display: inline-block;
+}
+.blockSocial ul li {
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.blockSocial a {
+    text-decoration: none;
+    color: #cccccc;
 }
